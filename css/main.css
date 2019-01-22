@@ -65,12 +65,12 @@ nav {
 }
 
 article {
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 
 .inner a {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 1rem;
     border: none;
     background-color: #333;
     padding: 10px;
