@@ -158,10 +158,11 @@ article {
 
 .production button {
     /*width: 100px;
-    height: 50px;*/
+    height: 50px;
+    */
     margin-bottom: 10px;
-    text-align: center;
     background-color: #35565a;
+    display: inline-block;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -229,12 +230,12 @@ footer {
     text-align: center;
 }
 
-.back-to{
+.back-to {
     display: none;
 }
 
 @media only screen and (min-width: 600px) {
-    .back-to{
+    .back-to {
         display: block;
     }
 
