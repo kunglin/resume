@@ -1,7 +1,7 @@
 ///
 $(function () {
     'use strict';
-
+    
     getQuote();
     $("#new-quote").on('click', function () {
         getQuote();
@@ -15,24 +15,7 @@ $(function () {
         }, 1000);
     });
 
-
-    var sidebar = $('#sidebar'), //选择侧栏
-        mask = $('.mask'), //选择mask
-        backButton = $('.back-to-top'), //选择侧栏触发器
-        sidebar_trigger = $('#sidebar_trigger'); //选择返回菜单
-
-    function showSiderBar() { //显示侧栏
-        mask.fadeIn(); //显示mask
-        sidebar.css('right', 0); //调整侧栏相关的css
-    }
-
-    function hideSiderBar() { //隐藏侧栏
-        mask.fadeOut(); //隐藏mask
-        sidebar.css('right', -sidebar.width()); //调整侧栏相关的css
-    }
-
-    sidebar_trigger.on('click', showSiderBar) //监听侧栏触发器点击事件
-    mask.on('click', hideSiderBar) //监听mask点击事件
+    var backButton = $('.back-to-top'); //选择侧栏触发器
 
     backButton.on('click', function () { //监听返回按钮点击事件
         $('html,body').animate({
@@ -51,7 +34,6 @@ $(function () {
     })
     //触发scroll事件
     $(window).trigger('scroll');
-
 });
 
 var content = "";
