@@ -162,7 +162,6 @@ article {
     margin-bottom: 10px;
     text-align: center;
     background-color: #35565a;
-
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -230,13 +229,15 @@ footer {
     text-align: center;
 }
 
-.back-to-top {
+.back-to{
     display: none;
-    opacity: 0;
-    visibility: hidden;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
+    .back-to{
+        display: block;
+    }
+
     .back-to-top {
         display: block;
         position: fixed;
