@@ -1,0 +1,249 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    color: #f4f3f3;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f3f3;
+    border: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+
+h1 {
+    padding: 12px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container-fluid {
+    background: #444 url(../img/banner.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    height: 100%;
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+article {
+    margin-top: 150px;
+}
+
+.inner a {
+    display: inline-block;
+    margin-top: 30px;
+    border: none;
+    background-color: #333;
+    padding: 10px;
+    cursor: pointer;
+    padding: 14px 40px;
+}
+
+.more {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.saying {
+    text-align: center;
+    background: #089DB0;
+    padding: 50px 20px;
+}
+
+.saying p {
+    font-size: 18px;
+}
+
+.saying b {
+    font-size: 14px;
+}
+
+.icon-wrap {
+    margin-top: 50px;
+}
+
+.icon:active {
+    position: relative;
+    top: 5px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    margin: 20px;
+    border: 1px solid #2c7781;
+    box-shadow: 3px 3px 10px #2e7f8a;
+    padding: 0;
+    background: #089DB0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.icon i {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.main {
+    overflow: hidden;
+    background: #252F34;
+}
+
+.main h2 {
+    margin-top: 15px;
+}
+
+.bgc:nth-child(odd) {
+    background-color: rgba(230, 213, 213, 0.02)
+}
+
+.personal,
+.education .back,
+.work {
+    padding: 0 40px;
+}
+
+.education h2,
+.personal h2,
+.production h2 {
+    margin-bottom: 20px;
+}
+
+.production button {
+    /*width: 100px;
+    height: 50px;*/
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #35565a;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.production button:hover {
+    background: radial-gradient(#233f429f, #35565a 60%);
+}
+
+.production button:active {
+    background: radial-gradient(#35565a, #233f429f 60%);
+}
+
+.skill {
+    background: #362f61;
+    padding: 50px 0;
+}
+
+.hr {
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #25476f;
+}
+
+.sub-heading {
+    margin-bottom: 20px;
+}
+
+.card-my {
+    padding: 50px 20px;
+}
+
+.card-my:first-child {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.card-my:nth-child(2) {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card-my:nth-child(3) {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.card-my:nth-child(4) {
+    background: rgba(0, 0, 0, 0.16);
+}
+
+.card-my:nth-child(5) {
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.card-my:nth-child(6) {
+    background: rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    background: #333;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.back-to-top {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 700px) {
+    .back-to-top {
+        display: block;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+        padding: 10px 20px;
+        color: #fefefe;
+        background: rgba(190, 190, 190, 0.288);
+    }
+}
